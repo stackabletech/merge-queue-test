@@ -5,4 +5,5 @@ jobs:
   # Shim until https://github.com/cla-assistant/cla-assistant/pull/973 is released (and deployed)
   license/cla:
     runs-on: ubuntu-latest
-    steps: []
+    steps:
+      - run: true
